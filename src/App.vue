@@ -4,7 +4,6 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <h1><router-link to="/">Home</router-link></h1>
-  <Authenticator />
   <router-view />
 </template>
 

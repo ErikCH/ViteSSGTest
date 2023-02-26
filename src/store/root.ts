@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import type { ListBlogsQuery } from "../API";
-import { API } from "aws-amplify";
+import { API } from "@aws-amplify/api";
 import * as queries from "../graphql/queries";
 import type { GraphQLQuery } from "@aws-amplify/api";
 
